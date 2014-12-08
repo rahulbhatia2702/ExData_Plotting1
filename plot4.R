@@ -14,7 +14,7 @@ with(data2, {
   lines(Sub_metering_2~DT,col='Red')
   lines(Sub_metering_3~DT,col='Blue')
   legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2, bty="n",
-         legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+         legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),cex=0.35)
   plot(Global_reactive_power~DT, type="l", 
        ylab="Global Rective Power (kilowatts)",xlab="")
 })
